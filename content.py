@@ -34,7 +34,7 @@ class ContentPlugin(BaseSkill):
         # Consultar
         self.register_intent("consultar_dato", ["qué sabes de", "que sabes de", "dime qué es"], "plugin_consultar_dato")
         
-        print(f"✅ [Extension] ContentPlugin cargado (Chistes: {len(self.chistes)}, Datos: {len(self.datos_curiosos)})")
+        print(f"[OK] [Extension] ContentPlugin cargado (Chistes: {len(self.chistes)}, Datos: {len(self.datos_curiosos)})")
 
     def register_intent(self, name, triggers, action):
         intent = {

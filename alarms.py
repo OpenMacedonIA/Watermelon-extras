@@ -25,7 +25,7 @@ class AlarmsSkill(BaseSkill):
         self.core.dynamic_actions['plugin_list_alarms'] = self.list_alarms
         self.core.dynamic_actions['plugin_delete_alarm'] = self.delete_alarm
         
-        print("✅ [Extension] AlarmsSkill cargado. Escuchando 'system:tick'...")
+        print("[OK] [Extension] AlarmsSkill cargado. Escuchando 'system:tick'...")
 
     def on_tick(self, now):
         """Called by NeoCore every second/loop."""

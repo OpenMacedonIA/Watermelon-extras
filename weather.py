@@ -16,7 +16,7 @@ class WeatherSkill(BaseSkill):
         
         # Actions
         self.core.dynamic_actions['plugin_weather_now'] = self.get_weather 
-        print("✅ [Extension] WeatherSkill cargado.")
+        print("[OK] [Extension] WeatherSkill cargado.")
 
     def register_intent(self, name, triggers, action):
         intent = {

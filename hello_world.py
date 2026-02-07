@@ -24,7 +24,7 @@ class HelloWorldSkill(BaseSkill):
             self.core.intent_manager.intent_map[trigger] = new_intent
             self.core.intent_manager.triggers_list.append(trigger)
             
-        print("✅ [Plugin] HelloWorldSkill registrado: Acciones y NLP inyectados.")
+        print("[OK] [Plugin] HelloWorldSkill registrado: Acciones y NLP inyectados.")
 
     def say_hello(self, command, response, **kwargs):
         """Esta es la función que ejecuta la lógica real."""

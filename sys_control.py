@@ -22,7 +22,7 @@ class SysControlSkill(BaseSkill):
         self.core.dynamic_actions['sys_reboot'] = self.reboot
         self.core.dynamic_actions['sys_shutdown'] = self.shutdown
         
-        print("✅ [Extension] SysControlSkill cargado.")
+        print("[OK] [Extension] SysControlSkill cargado.")
 
     def register_intent(self, name, triggers, action):
         intent = {

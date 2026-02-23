@@ -1,4 +1,4 @@
-# 🍒 Watermelon-extras (Formerly modules/extensions)
+#  Watermelon-extras (Formerly modules/extensions)
 
 **The Cherry on Top.**
 

@@ -11,4 +11,4 @@ if ! command -v amixer &> /dev/null; then
     echo "Install alsa-utils (sudo apt install alsa-utils)"
 fi
 
-echo "✅ Extensions Setup Complete."
+echo " Extensions Setup Complete."
